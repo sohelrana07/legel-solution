@@ -394,7 +394,13 @@
             Subscribe for our latest & Articles. We Won’t Give You Spam Mails.
           </p>
           <form class="footer-input">
-            <input type="email" name="" id="" placeholder="Email Address" />
+            <input
+              type="email"
+              name=""
+              id=""
+              placeholder="Email Address"
+              required
+            />
             <button type="submit" onclick="Thanks()" class="btn-primary">
               <i class="fa-solid fa-paper-plane"></i>
             </button>
@@ -405,7 +411,9 @@
 
     <script>
       function Thanks() {
-        alert("Thank you, We will response you.");
+        alert(
+          "Thank you! Your submission has been received. We truly appreciate your time and support."
+        );
       }
     </script>
   </body>
